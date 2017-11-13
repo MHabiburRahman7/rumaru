@@ -7,13 +7,13 @@
 	<?php include 'navbar.php';?>
 
     <!-- Services -->
-    <section id="services" height="100vh" style="padding-top:7%">
+    <section id="services" height="100%" style="padding-top:7%; padding-bottom:0%; position:absolute">
       <div class="row" style="margin:0%; padding-top:0%">
         <!--<div class="container"> -->
 			<div style="width:70%">
 				<img src="img/portfolio/map_legend.png" width="95%">
 			</div>
-			<div style="padding-right:0; margin:0; width:30%">
+			<div style="padding:0; margin:0; width:30%; overflow-y:scroll; position:relative;">
 				<div class="container">
 					<div class="row" style="border:1px;border-color:#333">
 						<div class="panel panel-default">
@@ -101,7 +101,7 @@
     </section>
 	
 	
-	<?php include 'footer.php';?>
+	<!--<//?php include 'footer.php';?>-->
 	<?php include 'boostrap_closing.php';?>
 	
 	</body>
