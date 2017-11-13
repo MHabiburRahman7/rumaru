@@ -7,126 +7,100 @@
 	<?php include 'navbar.php';?>
 
     <!-- Services -->
-    <section id="services" class="" height="100vh" >
-      <div class="container" style="margin-left:1%; margin-right:0%; padding-top:0%">
-        <div class="row">
-			<div style="width:80%">
-				<img src="img/portfolio/map_legend.png" width="90%">
+    <section id="services" height="100vh" style="padding-top:7%">
+      <div class="row" style="margin:0%; padding-top:0%">
+        <!--<div class="container"> -->
+			<div style="width:70%">
+				<img src="img/portfolio/map_legend.png" width="95%">
 			</div>
-			<div style="padding-right:0; margin:0; width:20%">
+			<div style="padding-right:0; margin:0; width:30%">
 				<div class="container">
-					<div class="row">
-						<h2>Somewhere Else</h2>
-						<p>Showing 1201 result</p>
+					<div class="row" style="border:1px;border-color:#333">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h2>Somewhere Else</h2>
+								<p>Showing 1201 result</p>
+							</div>
+						</div>
 					</div>
 					<div class="row">
-						<h3>Address A</h3>
-						<img src="img/portfolio/map_legend.png" width="80%" height="80%">
-						<p>Detail</p>
+						<div class="container">
+							<h3>Address Amazone, lalala, skrrap, pap pap pap</h3>
+							<br>
+							<div class="d-inline-block" style="width: 53%">
+								<img src="img/portfolio/01-thumbnail.jpg" width="100%">
+							</div>
+							<div class="d-inline-block" style="width: 45%; margin:0px">
+								<p style="font-size: 80%">Price : $1.000.0000 <br>
+								Bed : 2<br> 
+								Bath : 3 <br>
+								Area : 200m2								
+								</p>
+							</div>
+							<div class="d-inline-block" style="width: 100%">
+							<br>
+								<a href="" class="btn btn-primary"> Detail
+								</a>
+								<a href="" class="btn btn-primary"> GO tour
+								</a>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="container">
+							<h3>Address Amazone, lalala, skrrap, pap pap pap</h3>
+							<br>
+							<div class="d-inline-block" style="width: 53%">
+								<img src="img/portfolio/02-thumbnail.jpg" width="100%">
+							</div>
+							<div class="d-inline-block" style="width: 45%; margin:0px">
+								<p style="font-size: 80%">Price : $1.000.0000 <br>
+								Bed : 2<br> 
+								Bath : 3 <br>
+								Area : 200m2								
+								</p>
+							</div>
+							<div class="d-inline-block" style="width: 100%">
+							<br>
+								<a href="" class="btn btn-primary"> Detail
+								</a>
+								<a href="" class="btn btn-primary"> GO tour
+								</a>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="container">
+							<h3>Address Amazone, lalala, skrrap, pap pap pap</h3>
+							<br>
+							<div class="d-inline-block" style="width: 53%">
+								<img src="img/portfolio/03-thumbnail.jpg" width="100%">
+							</div>
+							<div class="d-inline-block" style="width: 45%; margin:0px">
+								<p style="font-size: 80%">Price : $1.000.0000 <br>
+								Bed : 2<br> 
+								Bath : 3 <br>
+								Area : 200m2								
+								</p>
+							</div>
+							<div class="d-inline-block" style="width: 100%">
+							<br>
+								<a href="" class="btn btn-primary"> Detail
+								</a>
+								<a href="" class="btn btn-primary"> GO tour
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div>
-				<h3>Address A</h3>
-				<img src="img/portfolio/map_legend.png" width="50%">
-				<p>Detail</p>
-			</div>
-        </div>
+        <!--</div> -->
       </div>
     </section>
 	
-	<!-- Team -->
-    <section id="team" class='bg-light'>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-	<?php include 'contact.php';?>
+	
 	<?php include 'footer.php';?>
 	<?php include 'boostrap_closing.php';?>
 	
