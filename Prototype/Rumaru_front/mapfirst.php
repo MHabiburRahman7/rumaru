@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<?php include 'head.php';?>
-	
-	<body id="page-top">
-	
 	<?php include 'navbar.php';?>
-
-    <!-- Services -->
-    <section id="services" height="100%" style="padding-top:7%; padding-bottom:0%; position:absolute">
-      <div class="row" style="margin:0%; padding-top:0%">
-        <!--<div class="container"> -->
-			<div style="width:70%">
-				<img src="img/portfolio/map_legend.png" width="95%">
-			</div>
-			<div style="padding:0; margin:0; width:30%; overflow-y:scroll; position:relative;">
+  
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+	<div style="position:relative">
+    <div id="map" style="width:67%"></div>
+	
+	<div style="padding:0; margin:0; width:30%; overflow-y:scroll; position:absolute; float:right; background-color: white; height:100%">
 				<div class="container">
 					<div class="row" style="border:1px;border-color:#333">
 						<div class="panel panel-default">
@@ -96,14 +108,17 @@
 					</div>
 				</div>
 			</div>
-        <!--</div> -->
-      </div>
-    </section>
-	
-	
-	<!--<//?php include 'footer.php';?>-->
-	<?php include 'boostrap_closing.php';?>
-	
-	</body>
-
+		</div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBSv1l_zZB-m75QQV3he2GMw0LeIYqyiE&callback=initMap"
+    async defer></script>
+  </body>
 </html>

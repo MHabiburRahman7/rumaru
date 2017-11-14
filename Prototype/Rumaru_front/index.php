@@ -14,7 +14,7 @@
           <!--
 		  <div class="intro-heading text-uppercase">Find your dream house</div>
 		  -->
-			<form style="text-align:center">
+			<form style="text-align:center" action="buy_filter.php">
 			  <div class="form-group">
 				<input type='text' class='form-control' style="min-width:70vh" name='address' placeholder='City, Adress, School, Agent, ZIP'>
 			  </div>
