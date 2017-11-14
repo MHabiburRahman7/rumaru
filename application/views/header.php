@@ -54,7 +54,7 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="index.php">Home</a></li>
+               <li class="active"><a href="<?php echo base_url();?>index.php/auth">Home</a></li>
                 <li><a href="<?php echo base_url();?>index.php/auth/about">About</a></li>
                 <li><a href="<?php echo base_url();?>index.php/auth/agents">Agents</a></li>         
                 <li><a href="<?php echo base_url();?>index.php/auth/blog">Blog</a></li>
@@ -77,7 +77,7 @@
 
 <!-- Header Starts -->
 <div class="header">
-<a href="index.php"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate"></a>
+<a href="<?php echo base_url()?>index.php/auth"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate"></a>
 
               <ul class="pull-right">
                 <li><a href="<?php echo base_url();?>index.php/auth/buy">Buy</a></li>

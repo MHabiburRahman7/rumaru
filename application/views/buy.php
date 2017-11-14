@@ -2,8 +2,8 @@
 <!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
-    <span class="pull-right"><a href="index.php">Home</a> / Buy, Sale & Rent</span>
-    <h2>Buy, Sale & Rent</h2>
+    <span class="pull-right"><a href="<?php echo base_url()?>index.php/auth">Home</a> / Buy</span>
+    <h2>Buy new residence</h2>
 </div>
 </div>
 <!-- banner -->
