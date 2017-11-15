@@ -11,6 +11,11 @@
 	<script src="<?php echo base_url() ?>assets/bootstrap/js/bootstrap.js"></script>
   <script src="<?php echo base_url() ?>assets/script.js"></script>
 
+	<style>
+	forehead{
+		style="font-size:200%"
+	}
+	</style>
 
 
 <!-- Owl stylesheet -->
@@ -36,10 +41,10 @@
 <!-- Header Starts -->
 <div class="navbar-wrapper">
 
-        <div class="navbar-inverse" role="navigation">
+        <div class="navbar-inverse" role="navigation" style="margin-bottom:0px; background-color: grey">
           <div class="container">
             <div class="navbar-header">
-
+				<a href="<?php echo base_url()?>index.php/auth"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate"></a>
 
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -51,14 +56,15 @@
             </div>
 
 
-            <!-- Nav Starts -->
+            <!-- Nav Starts style="height: 106px; padding:28px"-->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="<?php echo base_url();?>index.php/auth">Home</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/about">About</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/agents">Agents</a></li>         
-                <li><a href="<?php echo base_url();?>index.php/auth/blog">Blog</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/contact">Contact</a></li>
+               <li class="active"><a href="<?php echo base_url();?>index.php/auth" style="font-size:150%">Home</a></li>
+                <li><a href="<?php echo base_url();?>index.php/auth/about" style="font-size:150%">About</a></li>
+                <li><a href="<?php echo base_url();?>index.php/auth/agents" style="font-size:150%">Agents</a></li>
+				<li><a href="<?php echo base_url();?>index.php/auth/buy" style="font-size:150%">Buy</a></li>
+                <li><a href="<?php echo base_url();?>index.php/auth/sale" style="font-size:150%">Sale</a></li>         
+                <li><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
               </ul>
             </div>
             <!-- #Nav Ends -->
@@ -70,20 +76,17 @@
 <!-- #Header Starts -->
 
 
-
-
-
+<!--
 <div class="container">
 
-<!-- Header Starts -->
+
 <div class="header">
-<a href="<?php echo base_url()?>index.php/auth"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate"></a>
 
               <ul class="pull-right">
-                <li><a href="<?php echo base_url();?>index.php/auth/buy">Buy</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/sale">Sale</a></li>         
-                <li><a href="<?php echo base_url();?>index.php/auth/rent">Rent</a></li>
+                
               </ul>
 </div>
-<!-- #Header Starts -->
+
 </div>
+
+-->

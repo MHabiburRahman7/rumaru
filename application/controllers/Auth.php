@@ -51,15 +51,17 @@ class Auth extends CI_Controller {
 	}
 	
 	public function buy(){
-		$this->load->view('buy');
+		$this->load->view('new_buy');
 	}
 	
 	public function rent(){
 		$this->load->view('rent');
 	}
 	
-	public function sell(){
+	public function sale(){
+		$this->load->view('header');
 		$this->load->view('sell');
+		$this->load->view('footer');
 	}
 	
 	public function login()

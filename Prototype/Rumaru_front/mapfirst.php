@@ -22,10 +22,9 @@
     </style>
   </head>
   <body>
-	<div style="position:relative">
-    <div id="map" style="width:67%"></div>
-	
-	<div style="padding:0; margin:0; width:30%; overflow-y:scroll; position:absolute; float:right; background-color: white; height:100%">
+	<!-- <div style="position:relative"> -->
+    
+	<div style="padding:0; margin:0; width:28%; overflow-y:scroll; position:relative; float:right; background-color: white; height:100%">
 				<div class="container">
 					<div class="row" style="border:1px;border-color:#333">
 						<div class="panel panel-default">
@@ -108,7 +107,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		<div id="map" style="position:relative "></div>
+		<!--</div> -->
     <script>
       var map;
       function initMap() {
