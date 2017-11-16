@@ -43,16 +43,14 @@
 
         <div class="navbar-inverse" role="navigation" style="margin-bottom:0px; background-color: grey">
           <div class="container">
+		  			<a href="<?php echo base_url()?>index.php/auth"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate" width="20%"></a>
             <div class="navbar-header">
-				<a href="<?php echo base_url()?>index.php/auth"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate"></a>
-
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
             </div>
 
 
