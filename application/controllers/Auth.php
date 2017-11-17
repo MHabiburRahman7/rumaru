@@ -70,6 +70,52 @@ class Auth extends CI_Controller {
 		$this->load->view('footer');
 	}
 	
+	public function ongoing(){
+		$this->load->view('header');
+		$this->load->view('ad_ongoing');
+		$this->load->view('footer');
+	}
+	public function schedule(){
+		$this->load->view('header');
+		$this->load->view('ad_schedule');
+		$this->load->view('footer');
+	}
+	public function messaging(){
+		$this->load->view('header');
+		$this->load->view('ad_message');
+		$this->load->view('footer');
+	}
+	public function friends(){
+		$this->load->view('header');
+		$this->load->view('ad_friend');
+		$this->load->view('footer');
+	}
+	
+	public function logs(){
+		$this->load->view('header');
+		$this->load->view('ad_logs');
+		$this->load->view('footer');
+	}
+	public function profile(){
+		$this->load->view('header');
+		$this->load->view('ad_dashboard');
+		$this->load->view('footer');
+	}
+	// public function profile(){
+		
+		// $hasil = $this->session->userdata('logged_in');		
+		//var_dump($this->session->userdata('id_user'));
+		
+		// $this->load->view('header');
+		// if($hasil){
+			// $this->load->view('ad_dashboard');
+		// }
+		// else{
+			// redirect('auth/login');
+		// }
+		// $this->load->view('footer');
+	// }
+	
 	public function login(){
 		$data = array();
         $userData = array();
@@ -105,20 +151,22 @@ class Auth extends CI_Controller {
 		$this->load->view('login');
 	}
 	
-	public function profile(){
+	// public function profile(){
 		
-		$hasil = $this->session->userdata('logged_in');		
+		// $hasil = $this->session->userdata('logged_in');		
 		//var_dump($this->session->userdata('id_user'));
 		
-		$this->load->view('header');
-		if($hasil){
-			$this->load->view('ad_dashboard');
-		}
-		else{
-			redirect('auth/login');
-		}
-		$this->load->view('footer');
-	}
+		// $this->load->view('header');
+		// if($hasil){
+			// $this->load->view('ad_dashboard');
+		// }
+		// else{
+			// redirect('auth/login');
+		// }
+		// $this->load->view('footer');
+	// }
+	
+	
 	
 	public function login_old()
 	{

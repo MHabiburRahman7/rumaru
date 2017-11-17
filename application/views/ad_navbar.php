@@ -14,9 +14,9 @@
                     </nav>
                     <ul class="list-group">
                         <li class="list-group-item"><a class="btn btn-success <?php if($now == "bid") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/bidding"><span>Bidding </span></a></li>
-                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "ongoing") echo "active";?>" href=""><span>Ongoing </span></a></li>
-                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "schedule") echo "active";?>" href=""><span>Schedule </span></a></li>
-                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "msg") echo "active";?>" href=""><span>Messaging </span></a></li>
-                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "firend") echo "active";?>" href=""><span>Friends </span></a></li>
-                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "log") echo "active";?>" href=""><span>Logs </span></a></li>
+                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "ongoing") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/ongoing"><span>Ongoing </span></a></li>
+                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "schedule") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/schedule"><span>Schedule </span></a></li>
+                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "msg") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/messaging"><span>Messaging </span></a></li>
+                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "firend") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/friends"><span>Friends </span></a></li>
+                        <li class="list-group-item"><a class="btn btn-success <?php if($now == "log") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/logs"><span>Logs </span></a></li>
                     </ul>
