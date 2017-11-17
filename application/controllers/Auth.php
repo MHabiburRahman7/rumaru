@@ -5,7 +5,7 @@ class Auth extends CI_Controller {
 
 	function __construct() {
         parent::__construct();
-        $this->load->library('form_validation');
+        $this->load->library('form_validation', 'session');
         $this->load->model('Mymodel');
     }
 	
@@ -64,7 +64,63 @@ class Auth extends CI_Controller {
 		$this->load->view('footer');
 	}
 	
-	public function login()
+	public function bidding(){
+		$this->load->view('header');
+		$this->load->view('ad_bidding');
+		$this->load->view('footer');
+	}
+	
+	public function login(){
+		$data = array();
+        $userData = array();
+        
+		if($this->input->post('loginSubmit')){
+			$this->form_validation->set_rules('name', 'Name', 'required');
+			$this->form_validation->set_rules('password', 'password', 'required');
+			
+			if($this->form_validation->run() == true){
+				$name = $this->input->post('name');
+				$password = md5($this->input->post('password'));
+				$check = $this->Mymodel->check_login($name, $password);
+				//var_dump($password);
+				//die();
+				
+				$result = count($check);
+				
+				if($result > 0){
+					$get_data = $this->db->get_where('user', array('username' => $name, 'password' => $password))->row();
+					$data = array('logged_in' => true, 'id_user' => $get_data->id, 'logged_name' => $get_data->username);
+					//var_dump($data);
+					//die();
+					$this->session->set_userdata($data);
+					redirect('auth/profile');
+				}
+				else{
+					$this->session->set_flashdata("error","Not logged in, something wrong");
+				}
+			}			
+		}	
+		
+		$data['user'] = $userData;
+		$this->load->view('login');
+	}
+	
+	public function profile(){
+		
+		$hasil = $this->session->userdata('logged_in');		
+		//var_dump($this->session->userdata('id_user'));
+		
+		$this->load->view('header');
+		if($hasil){
+			$this->load->view('ad_dashboard');
+		}
+		else{
+			redirect('auth/login');
+		}
+		$this->load->view('footer');
+	}
+	
+	public function login_old()
 	{
 		$this->form_validation->set_rules('name', 'Name', 'required');
         $this->form_validation->set_rules('password', 'password', 'required');
@@ -127,11 +183,12 @@ class Auth extends CI_Controller {
 				
 				$userData = array(
 				
-					'name' => strip_tags($this->input->post('name')),
+					'username' => strip_tags($this->input->post('name')),
 					'email' => strip_tags($this->input->post('email')),
 					'password' => md5($this->input->post('password')),
 					//'gender' => $this->input->post('gender'),
-					'phone' => strip_tags($this->input->post('phone'))
+					'phoneno' => strip_tags($this->input->post('phone')),
+					'usertype' => '0'
 					/*
 					'name' => $_POST['name'],
 					'email' => $_POST['email'],

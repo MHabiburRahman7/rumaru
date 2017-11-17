@@ -125,7 +125,12 @@
         </div>
         <div class="col-lg-5 col-lg-offset-1 col-sm-6 ">
           <p>Join now and get updated with all the properties deals.</p>
-          <button class="btn btn-info"   data-toggle="modal" data-target="#loginpop">Login</button>        </div>
+		  <!--
+          <button class="btn btn-info" data-toggle="modal" data-target="#loginpop">Login</button>        
+		  -->
+		  <a class="btn btn-info" href="<?php echo base_url();?>index.php/auth/login" style="margin-right:20px">Login</a>
+		  <a class="btn btn-info" href="<?php echo base_url();?>index.php/auth/register">Register</a>    
+		  </div>
       </div>
     </div>
   </div>

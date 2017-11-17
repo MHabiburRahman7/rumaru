@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Mymodel extends CI_Model {
 	
 	function __construct() {
-        $this->userTbl = 'users';
+        $this->userTbl = 'user';
     }
 	
 	/*
@@ -13,6 +13,14 @@ class Mymodel extends CI_Model {
 		$this->load->view('register');
 	}
 	*/
+	
+	public function check_login($user, $pass){
+		
+		$this->db->where('username', $user);
+		$this->db->where('password', $pass);
+		
+		return $this->db->get('user')->row();
+	}
 	
 	function getRows($params = array()){
         $this->db->select('*');
@@ -52,12 +60,14 @@ class Mymodel extends CI_Model {
 	
 	public function insert($data = array()) {
         //add created and modified data if not included
-        if(!array_key_exists("created", $data)){
-            $data['created'] = date("Y-m-d H:i:s");
+        if(!array_key_exists("start_date", $data)){
+            $data['start_date'] = date("Y-m-d H:i:s");
         }
+		/*
         if(!array_key_exists("modified", $data)){
             $data['modified'] = date("Y-m-d H:i:s");
         }
+		*/
         
         //insert user data to users table
         $insert = $this->db->insert($this->userTbl, $data);
