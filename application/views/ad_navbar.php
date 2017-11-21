@@ -19,4 +19,7 @@
                         <li class="list-group-item"><a class="btn btn-success <?php if($now == "msg") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/messaging"><span>Messaging </span></a></li>
                         <li class="list-group-item"><a class="btn btn-success <?php if($now == "firend") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/friends"><span>Friends </span></a></li>
                         <li class="list-group-item"><a class="btn btn-success <?php if($now == "log") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/logs"><span>Logs </span></a></li>
+						<li class="list-group-item"><a class="btn btn-success <?php if($now == "log") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/addfriend"><span>Add Friend </span></a></li>
+						<li class="list-group-item"><a class="btn btn-success <?php if($now == "log") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/addhouse"><span>Add House </span></a></li>
+						<li class="list-group-item"><a class="btn btn-success <?php if($now == "log") echo "active";?>" href="<?php echo base_url() ?>index.php/auth/morehouses"><span>More Houses </span></a></li>
                     </ul>

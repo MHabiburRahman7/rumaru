@@ -101,6 +101,24 @@ class Auth extends CI_Controller {
 		$this->load->view('ad_dashboard');
 		$this->load->view('footer');
 	}
+	//
+		public function addfriend(){
+		$this->load->view('header');
+		$this->load->view('ad_addfriend');
+		$this->load->view('footer');
+	}
+	
+	public function addhouse(){
+		$this->load->view('header');
+		$this->load->view('ad_addhouse');
+		$this->load->view('footer');
+	}
+	public function morehouses(){
+		$this->load->view('header');
+		$this->load->view('ad_morehouses');
+		$this->load->view('footer');
+	}
+	
 	// public function profile(){
 		
 		// $hasil = $this->session->userdata('logged_in');		

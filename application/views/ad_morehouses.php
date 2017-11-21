@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rumaru</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+
 
 <body>
     <nav class="navbar navbar-default">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand navbar-link" href="#"> </a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
+           
             <div class="collapse navbar-collapse" id="navcol-1">
                 <form class="navbar-form navbar-right">
                     <input class="form-control" type="search" placeholder="City, Zip Code">
@@ -28,7 +19,7 @@
         <div class="container">
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col-md-3 col-md-pull-0"><img src="assets/img/kolecko.png" width="140" height="300"></div>
+                    <div class="col-md-3 col-md-pull-0"><img src="assets/img/kolecko.png" width="140" height="200"></div>
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-md-12">
@@ -49,7 +40,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-md-pull-0"><img src="assets/img/kolecko.png" width="140" height="300"></div>
+                    <div class="col-md-3 col-md-pull-0"><img src="assets/img/kolecko.png" width="140" height="200"></div>
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-md-12">
@@ -70,7 +61,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-md-pull-0"><img src="assets/img/kolecko.png" width="140" height="300"></div>
+                    <div class="col-md-3 col-md-pull-0"><img src="assets/img/kolecko.png" width="140" height="200"></div>
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-md-12">
@@ -118,14 +109,7 @@
             </div>
         </div>
     </section>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h5>CopyRight © 2017</h5></div>
-            </div>
-        </div>
-    </footer>
+    
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
