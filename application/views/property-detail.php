@@ -149,10 +149,25 @@
   <p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service</p>
 
   </div>
-  <div><h4><span class="glyphicon glyphicon-map-marker"></span> Location 123</h4>
+  <div><h4><span class="glyphicon glyphicon-map-marker"></span> Location</h4>
 <div class="well"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Pulchowk,+Patan,+Central+Region,+Nepal&amp;aq=0&amp;oq=pulch&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Pulchowk,+Patan+Dhoka,+Patan,+Bagmati,+Central+Region,+Nepal&amp;ll=27.678236,85.316853&amp;spn=0.001347,0.002642&amp;t=m&amp;z=14&amp;output=embed"></iframe></div>
   </div>
-
+  
+	<div><h4><span class="glyphicon glyphicon-calendar"></span>Upcoming Open House</h4>
+		<br>
+		<h4>Sunday, Dec 3 · 1:00pm - 4:00pm</h4>
+	</div>
+	
+	<br>
+	<div><h4><span class="glyphicon glyphicon-tasks"></span>Price History</h4>
+		<canvas id="line-chart" width="800" height="450"></canvas>
+	</div>
+	
+	<br>
+	<div><h4><span class="glyphicon glyphicon-list-alt"></span>Price near you (less then 1 km)</h4>
+		<canvas id="near-price" width="800" height="450"></canvas>
+	</div>
+	
   </div>
   <div class="col-lg-4">
   <div class="col-lg-12  col-sm-6">
@@ -222,6 +237,7 @@
 </div>
 </div>
 </div>
+
 	<div class="row" >
 		<div class="comment-tabs">
             <ul class="nav nav-tabs" role="tablist">
@@ -439,7 +455,7 @@
         </div>
 	</div>
 	
-    <div class="container">
+	    <div class="container">
 	<div class="row" style="margin-top:40px;">
 		<div class="col-md-6">
     	<div class="well well-sm">
@@ -513,5 +529,105 @@ $(function(){
   });
 });
 </script>
+<script type="text/javascript" src="<?php echo base_url()?>assets/js/Chart.min.js"></script>
+	<script type="text/javascript">
+		//Meletakkan grafik pada div yang memiliki id "grafik_comp"
+		var ctx = document.getElementById("line-chart").getContext("2d");
+		
+		var data = {
+			labels: ['January', 'February', 'March', 'April'],
+			datasets: [
+				{
+					label: '2010 customers #',
+					fillColor: '#382765',
+					data: [ 610, 630, 665, 650],
+					backgroundColor: [
+						'rgba(0, 255, 0, 0.2)',
+						
+					],
+					borderColor: [
+						'rgba(255, 0, 0, 0.2)',
+					],
+				}
+			]
+
+		};
+		  
+		  var options = {
+			title : {
+			  display : true,
+			  position : "top",
+			  fontSize : 12
+			},
+			legend : {
+			  display : true,
+			  position : "bottom"
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					}
+				}]
+			}
+		  };
+					
+		  var myBarChart = new Chart(ctx, { //Inisiasi grafik
+			  type: 'line',
+			  data: data,
+			  options: options
+		  });
+	</script>
+	
+	<script type="text/javascript">
+		//Meletakkan grafik pada div yang memiliki id "grafik_comp"
+		var ctx = document.getElementById("near-price").getContext("2d");
+		
+		var data = {
+			labels: ['Location A', 'Location B', 'Location C', 'Location D'],
+			datasets: [
+				{
+					label: 'Price in usd',
+					fillColor: '#382765',
+					data: [ 635, 630, 665, 650],
+					backgroundColor: [
+					
+						'rgba(255, 0, 0, 0.2)',
+						'rgba(0, 255, 0, 0.2)',
+						'rgba(0, 0, 255, 0.2)',
+						'rgba(0, 0, 0, 0.2)',
+					],
+					
+					borderWidth: 2
+				}
+			]
+
+		};
+		  
+		  var options = {
+			title : {
+			  display : true,
+			  position : "top",
+			  fontSize : 12
+			},
+			legend : {
+			  display : true,
+			  position : "bottom"
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero: true
+					}
+				}]
+			}
+		  };
+					
+		  var myBarChart = new Chart(ctx, { //Inisiasi grafik
+			  type: 'bar',
+			  data: data,
+			  options: options
+		  });
+	</script>
 
 <?php include'footer.php';?>
