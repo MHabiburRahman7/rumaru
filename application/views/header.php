@@ -6,22 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
  	<link rel="stylesheet" href="<?php echo base_url() ?>assets/bootstrap/css/bootstrap.css" />
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/style.css"/>
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/style.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="<?php echo base_url() ?>assets/bootstrap/js/bootstrap.js"></script>
-  <script src="<?php echo base_url() ?>assets/script.js"></script>
+	<script src="<?php echo base_url() ?>assets/script.js"></script>
 
 	<style>
 	forehead{
-		style="font-size:200%"
+		style="font-size:200%";
+	}
+	a.logo{
+		width: 120px;
+		float: left;		
+	}
+	a.logo img{
+		width: inherit;
 	}
 	</style>
 
 
 <!-- Owl stylesheet -->
-<link rel="stylesheet" href="<?php echo base_url() ?>assets/owl-carousel/owl.carousel.css">
-<link rel="stylesheet" href="<?php echo base_url() ?>assets/owl-carousel/owl.theme.css">
-<script src="<?php echo base_url() ?>assets/owl-carousel/owl.carousel.js"></script>
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/owl-carousel/owl.theme.css">
+	<script src="<?php echo base_url() ?>assets/owl-carousel/owl.carousel.js"></script>
 <!-- Owl stylesheet -->
 
 
@@ -33,6 +40,11 @@
     <script type="text/javascript" src="<?php echo base_url() ?>assets/slitslider/js/jquery.slitslider.js"></script>
 <!-- slitslider -->
 
+<!-- DateTimePicker -->
+	<script type="text/javascript" src="<?php echo base_url() ?>assets/js/moment.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>assets/js/datetimepicker.js"></script>
+<!-- DateTimePicker -->
+	 
 </head>
 
 <body>
@@ -43,7 +55,6 @@
 
         <div class="navbar-inverse" role="navigation" style="margin-bottom:0px; background-color: grey">
           <div class="container">
-		  			<a href="<?php echo base_url()?>index.php/auth"><img src="<?php echo base_url() ?>images/logo.png" alt="Realestate" width="20%"></a>
             <div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -53,17 +64,21 @@
 				  </button>
             </div>
 
-
             <!-- Nav Starts style="height: 106px; padding:28px"-->
-            <div class="navbar-collapse  collapse">
-              <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="<?php echo base_url();?>index.php/auth" style="font-size:150%">Home</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/about" style="font-size:150%">About</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/agents" style="font-size:150%">Agents</a></li>
-				<li><a href="<?php echo base_url();?>index.php/auth/buy" style="font-size:150%">Buy</a></li>
-                <li><a href="<?php echo base_url();?>index.php/auth/sale" style="font-size:150%">Sale</a></li>         
-                <li><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
-              </ul>
+            <div>
+				<a class="logo" href="<?php echo base_url()?>index.php/auth">
+					<img src="<?php echo base_url() ?>images/logo.png" alt="Realestate" width="20%">
+				</a>
+				<nav class="navbar-collapse collapse">
+				  <ul class="nav navbar-nav navbar-right">
+				   <li class="active"><a href="<?php echo base_url();?>index.php/auth" style="font-size:150%">Home</a></li>
+					<li><a href="<?php echo base_url();?>index.php/auth/about" style="font-size:150%">About</a></li>
+					<li><a href="<?php echo base_url();?>index.php/auth/agents" style="font-size:150%">Agents</a></li>
+					<li><a href="<?php echo base_url();?>index.php/auth/buy" style="font-size:150%">Buy</a></li>
+					<li><a href="<?php echo base_url();?>index.php/auth/sale" style="font-size:150%">Sale</a></li>         
+					<li><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
+				  </ul>
+				</nav>
             </div>
             <!-- #Nav Ends -->
 
