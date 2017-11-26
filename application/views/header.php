@@ -77,6 +77,15 @@
 					<li><a href="<?php echo base_url();?>index.php/auth/buy" style="font-size:150%">Buy</a></li>
 					<li><a href="<?php echo base_url();?>index.php/auth/sale" style="font-size:150%">Sale</a></li>         
 					<li><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
+					<?php
+						if($this->session->userdata('logged_in')){
+							echo "<li><a href='".base_url()."index.php/auth/logout' style='font-size:150%'>Logout</a></li>";
+						}
+						else{
+							echo "<li><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
+							echo "<li><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
+						}
+					?>
 				  </ul>
 				</nav>
             </div>

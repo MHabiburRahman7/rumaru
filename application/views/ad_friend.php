@@ -57,7 +57,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="table-responsive">
+                            <div class="table-responsive" style="overflow-y:scroll">
                                 <table class="table">
                                     <thead>
                                         <tr>
@@ -70,6 +70,21 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+									<?php 
+										//var_dump($wkwkwk);
+										
+										foreach($wkwkwk as $res){
+											echo "<tr>";
+												echo "<td>".$res['id']."</td>";
+												echo "<td>".$res['username']."</td>";
+												echo "<td>".$res['address']."</td>";
+												echo "<td>".$res['phoneno']."</td>";
+												echo "<td>Not yet</td>";
+												echo "<td><a class='btn btn-default'>Not Yet</a></td>";
+											echo "</tr>";
+										};
+									?>
+									<!--
                                         <tr>
                                             <td>1</td>
                                             <td class="info">MR A </td>
@@ -126,6 +141,7 @@
                                             <td>010-123-4567 </td>
                                             <td>50 </td>
                                         </tr>
+										-->
                                     </tbody>
                                 </table>
                             </div>

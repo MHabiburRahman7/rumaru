@@ -22,35 +22,35 @@
                         <div class="col-md-2 col-md-offset-1">
                             <h4>Address :</h4></div>
                         <div class="col-md-8">
-                            <input type="text" placeholder="Jarkata">
+                            <input class="form-control" type="text" placeholder="Jarkata">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-2 col-md-offset-1">
                             <h4>Phone :</h4></div>
                         <div class="col-md-8">
-                            <input type="text" placeholder="010-">
+                            <input class="form-control"  type="text" placeholder="010-">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-2 col-md-offset-1">
                             <h4>Rating :</h4></div>
                         <div class="col-md-8">
-                            <input type="text" placeholder="Good, Fair, Don't want to say">
+                            <input class="form-control"  type="text" placeholder="Good, Fair, Don't want to say">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-2 col-md-offset-1">
                             <h4>Area Spec:</h4></div>
                         <div class="col-md-8">
-                            <input type="text" placeholder="Specialization">
+                            <input class="form-control"  type="text" placeholder="Specialization">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-2 col-md-offset-1">
                             <h4>Notes :</h4></div>
                         <div class="col-md-8">
-                            <input type="text" placeholder="About Him">
+                            <input class="form-control"  type="text" placeholder="About Him">
                         </div>
                     </div>
                 </div>

@@ -22,6 +22,15 @@ class Mymodel extends CI_Model {
 		return $this->db->get('user')->row();
 	}
 	
+	public function get_friend(){
+		
+//		$this->db->where('username', $user);
+//		$this->db->where('password', $pass);
+		$query = $this->db->get('user');
+		$result = $query->result_array();
+		return $result;
+	}
+	
 	function getRows($params = array()){
         $this->db->select('*');
         $this->db->from($this->userTbl);

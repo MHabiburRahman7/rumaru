@@ -20,37 +20,38 @@
                         <div class="col-md-3">
                             <h4>Title :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Please Enter Name ">
+                            <input class="form-control" type="text" placeholder="Please Enter Name ">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Desc :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="About">
+                            <input class="form-control" class="form-control" type="text" placeholder="About">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Start :</h4></div>
                         <div class="col-md-9">
-                            <input type="date">
+                            <input class="form-control" type="date">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>End :</h4></div>
                         <div class="col-md-9">
-                            <input type="date">
+                            <input class="form-control" type="date">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
-                            <h4>Comment :</h4></div>
+                            <h4>Content :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Mr. ">
+                            <textarea class="form-control animated" cols="50" rows="7" placeholder="Content"></textarea>
                         </div>
                     </div>
+					<br>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Attachment :</h4></div>

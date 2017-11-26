@@ -21,35 +21,35 @@
                         <div class="col-md-3">
                             <h4>Name :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Mr. ">
+                            <input class="form-control"  type="text" placeholder="Mr. ">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Address :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Mr. ">
+                            <input class="form-control"  type="text" placeholder="Mr. ">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Photo :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Mr. ">
+                            <input class="form-control"  type="text" placeholder="Mr. ">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Notes :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Mr. ">
+                            <input class="form-control"  type="text" placeholder="Mr. ">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Price :</h4></div>
                         <div class="col-md-9">
-                            <input type="text" placeholder="Mr. ">
+                            <input class="form-control"  type="text" placeholder="Mr. ">
                         </div>
                     </div>
                     <div class="row">
