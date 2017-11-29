@@ -71,12 +71,12 @@
 				</a>
 				<nav class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav navbar-right">
-				   <li class="active"><a href="<?php echo base_url();?>index.php/auth" style="font-size:150%">Home</a></li>
-					<li><a href="<?php echo base_url();?>index.php/auth/about" style="font-size:150%">About</a></li>
-					<li><a href="<?php echo base_url();?>index.php/auth/agents" style="font-size:150%">Agents</a></li>
-					<li><a href="<?php echo base_url();?>index.php/auth/buy" style="font-size:150%">Buy</a></li>
-					<li><a href="<?php echo base_url();?>index.php/auth/sale" style="font-size:150%">Sale</a></li>         
-					<li><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
+				    <li <?php if($name == "home") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth" style="font-size:150%">Home</a></li>
+					<li <?php if($name == "about") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth/about" style="font-size:150%">About</a></li>
+					<li <?php if($name == "agent") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth/agents" style="font-size:150%">Agents</a></li>
+					<li <?php if($name == "buy") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth/buy" style="font-size:150%">Buy</a></li>
+					<li <?php if($name == "sale") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth/sale" style="font-size:150%">Sale</a></li>         
+					<li <?php if($name == "rent") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
 					<?php
 						if($this->session->userdata('logged_in')){
 							echo "<li><a href='".base_url()."index.php/auth/logout' style='font-size:150%'>Logout</a></li>";

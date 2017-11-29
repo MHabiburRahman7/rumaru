@@ -2,8 +2,8 @@
 <!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
-    <span class="pull-right"><a href="#">Home</a> / Register</span>
-    <h2>Register</h2>
+    <span class="pull-right"><a href="#">Home</a> / login</span>
+    <h2>Login</h2>
 </div>
 </div>
 <!-- banner -->

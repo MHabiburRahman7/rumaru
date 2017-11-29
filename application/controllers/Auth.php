@@ -7,29 +7,35 @@ class Auth extends CI_Controller {
         parent::__construct();
         $this->load->library('form_validation', 'session');
         $this->load->model('Mymodel');
+		$head['name']="home";
     }
 	
 	public function index()
 	{
-		$this->load->view('header');
+		$head['name'] = "home";
+		$this->load->view('header',$head);
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
 	
 	public function about(){
-		$this->load->view('header');
+		$head['name'] = "about";
+//		var_dump($head);
+//		die();
+		$this->load->view('header',$head);
 		$this->load->view('about');
 		$this->load->view('footer');
 	}
 	
 	public function agents(){
-		$this->load->view('header');
+		$head['name'] = "agent";
+		$this->load->view('header',$head);
 		$this->load->view('agents');
 		$this->load->view('footer');
 	}
 	
 	public function blog(){
-		$this->load->view('header');
+		$this->load->view('header', $head);
 		$this->load->view('blog');
 		$this->load->view('footer');
 	}
@@ -41,8 +47,16 @@ class Auth extends CI_Controller {
 	}
 	
 	public function property_detail(){
+		$head['name'] = "buy";
 		//$this->load->view('header');
-		$this->load->view('property-detail');
+		$this->load->view('property-detail', $head);
+		//$this->load->view('footer');
+	}
+	
+	public function property_rent(){
+		$head['name'] = "rent";
+		//$this->load->view('header');
+		$this->load->view('property_rent', $head);
 		//$this->load->view('footer');
 	}
 	
@@ -51,92 +65,109 @@ class Auth extends CI_Controller {
 	}
 	
 	public function buy(){
-		$this->load->view('new_buy');
+		$head['name'] = "buy";
+		$this->load->view('new_buy',$head);
 	}
 	
 	public function rent(){
-		$this->load->view('rent');
+		$head['name'] = "rent";
+		$this->load->view('rent',$head);
 	}
 	
 	public function sale(){
-		$this->load->view('header');
+		$head['name'] = "sale";
+		$this->load->view('header',$head);
 		$this->load->view('sell');
 		$this->load->view('footer');
 	}
 	
 	public function bidding(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_bidding');
 		$this->load->view('footer');
 	}
 	
 	public function ongoing(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_ongoing');
 		$this->load->view('footer');
 	}
 	public function schedule(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_schedule');
 		$this->load->view('footer');
 	}
 	public function messaging(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_message');
 		$this->load->view('footer');
 	}
 	public function friends(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_friend');
 		$this->load->view('footer');
 	}
 	
 	public function logs(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_logs');
 		$this->load->view('footer');
 	}
 	public function profile(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_dashboard');
 		$this->load->view('footer');
 	}
 	//
 	public function addfriend(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_addfriend');
 		$this->load->view('footer');
 	}
 	
 	public function addhouse(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_addhouse');
 		$this->load->view('footer');
 	}
 	public function morehouses(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('ad_morehouses');
 		$this->load->view('footer');
 	}
 	
 	public function announce(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('sys_announce');
 		$this->load->view('footer');
 	}
 	public function usermanage(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('sys_usermanage');
 		$this->load->view('footer');
 	}
 	
 	public function adsmanage(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('sys_adsmanage');
 		$this->load->view('footer');
 	}
 	public function transmanage(){
-		$this->load->view('header');
+		$head['name']="home";
+		$this->load->view('header', $head);
 		$this->load->view('sys_transmanage');
 		$this->load->view('footer');
 	}
@@ -157,6 +188,7 @@ class Auth extends CI_Controller {
 	// }
 	
 	public function login(){
+		$head['name'] = "login";
 		$data = array();
         $userData = array();
         
@@ -188,7 +220,7 @@ class Auth extends CI_Controller {
 		}	
 		
 		$data['user'] = $userData;
-		$this->load->view('login');
+		$this->load->view('login', $head);
 	}
 	
 	public function logout(){
@@ -203,7 +235,7 @@ class Auth extends CI_Controller {
 	}
 	
 	public function read_friend(){
-		$this->load->view('header');
+		$this->load->view('header', $head);
         $friendData = array();
 		
 		$datas = $this->Mymodel->get_friend();
@@ -213,7 +245,7 @@ class Auth extends CI_Controller {
 		//var_dump($friendData["wkwkwk"]);
 		//die();
 				
-		$this->load->view('ad_friend', $friendData);
+		$this->load->view('user_list', $friendData);
 		$this->load->view('footer');
 	}
 	
@@ -283,6 +315,7 @@ class Auth extends CI_Controller {
 	}
 	
 	public function register(){
+		$head['name'] = "register";
 		$data = array();
         $userData = array();
         if($this->input->post('regisSubmit')){
@@ -329,7 +362,7 @@ class Auth extends CI_Controller {
         $data['user'] = $userData;
         //load the view
         //$this->load->view('users/registration', $data);
-		$this->load->view('register');
+		$this->load->view('register', $head);
 	}
 	
 }

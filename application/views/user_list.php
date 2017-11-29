@@ -53,7 +53,7 @@
                 <div class="col-sm-9">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3>Agents Contact</h3></div>
+                            <h3>List Users</h3></div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
@@ -62,6 +62,7 @@
                                     <thead>
                                         <tr>
                                             <th>No </th>
+											<th>ID</th>
                                             <th>Name </th>
                                             <th>Location </th>
                                             <th>Phone Number</th>
@@ -72,9 +73,10 @@
                                     <tbody>
 									<?php 
 										//var_dump($wkwkwk);
-										/*
+										$i=1;
 										foreach($wkwkwk as $res){
 											echo "<tr>";
+												echo "<td>".$i++."</td>";
 												echo "<td>".$res['id']."</td>";
 												echo "<td>".$res['username']."</td>";
 												echo "<td>".$res['address']."</td>";
@@ -83,66 +85,7 @@
 												echo "<td><a class='btn btn-default'>Not Yet</a></td>";
 											echo "</tr>";
 										};
-										*/
 									?>
-									
-                                        <tr>
-                                            <td>1</td>
-                                            <td class="info">MR A </td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>10 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2 </td>
-                                            <td class="info">MR B</td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>20 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3 </td>
-                                            <td class="info">MR C </td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>10 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4 </td>
-                                            <td class="info">Mrs A</td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>15 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>5 </td>
-                                            <td class="info">Mrs B</td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>3 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>6 </td>
-                                            <td class="info">Dev A</td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>10 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>7 </td>
-                                            <td class="info">Dev B</td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>30 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>8 </td>
-                                            <td class="info">Dev C</td>
-                                            <td>Main Road, Jakata, Indonesia </td>
-                                            <td>010-123-4567 </td>
-                                            <td>50 </td>
-                                        </tr>
-										
                                     </tbody>
                                 </table>
                             </div>
