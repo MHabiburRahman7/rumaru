@@ -117,7 +117,7 @@
               </select>
               </div>
               <div class="col-lg-3 col-sm-4">
-              <button class="btn btn-success"  onclick="window.location.href='<?php echo base_url();?>index.php/auth/buysalerent'">Find Now</button>
+              <button class="btn btn-success"  onclick="window.location.href='<?php echo base_url();?>index.php/auth/buy'">Find Now</button>
               </div>
           </div>
           

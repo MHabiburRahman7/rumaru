@@ -16,7 +16,7 @@
 	echo validation_errors('<div class = "alert alert-danger">', '</div>');
 ?>
 
-<div class="container">
+<div class="container" style="height:60vh">
 <div class="spacer">
 <div class="row register">
 	<div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 ">

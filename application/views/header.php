@@ -16,7 +16,7 @@
 		style="font-size:200%";
 	}
 	a.logo{
-		width: 120px;
+		width: 150px;
 		float: left;		
 	}
 	a.logo img{
@@ -53,7 +53,7 @@
 <!-- Header Starts -->
 <div class="navbar-wrapper">
 
-        <div class="navbar-inverse" role="navigation" style="margin-bottom:0px; background-color: grey">
+        <div class="navbar-inverse" role="navigation" style="margin-bottom:0px; padding: 1em 1em">
           <div class="container">
             <div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -67,7 +67,7 @@
             <!-- Nav Starts style="height: 106px; padding:28px"-->
             <div>
 				<a class="logo" href="<?php echo base_url()?>index.php/auth">
-					<img src="<?php echo base_url() ?>images/logo.png" alt="Realestate" width="20%">
+					<img src="<?php echo base_url() ?>images/logo.png" alt="Realestate">
 				</a>
 				<nav class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav navbar-right">
@@ -82,8 +82,14 @@
 							echo "<li><a href='".base_url()."index.php/auth/logout' style='font-size:150%'>Logout</a></li>";
 						}
 						else{
-							echo "<li><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
-							echo "<li><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
+							if($name == "login"){
+								echo "<li class='active'><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
+								echo "<li><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
+							}
+							if($name == "register"){
+								echo "<li><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
+								echo "<li class='active'><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
+							}
 						}
 					?>
 				  </ul>

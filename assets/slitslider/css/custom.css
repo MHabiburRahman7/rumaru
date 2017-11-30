@@ -3,6 +3,7 @@
 	height: 500px;
 	overflow: hidden;
 	position: relative;
+	opacity: 0.8;
 }
 
  .sl-slider h2,
@@ -41,7 +42,7 @@
 	text-transform: uppercase;
 	padding:15px;
 	display: inline-block;
-	background-color: #72b70f;
+	background-color: #3d78a7;
 	border-radius: 5px;
 }
 
