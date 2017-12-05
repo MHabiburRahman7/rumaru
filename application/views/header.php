@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
  	<link rel="stylesheet" href="<?php echo base_url() ?>assets/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/datetimepicker.css" />
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/style.css"/>
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="<?php echo base_url() ?>assets/bootstrap/js/bootstrap.js"></script>
@@ -79,16 +80,20 @@
 					<li <?php if($name == "rent") echo "class='active'"; ?>><a href="<?php echo base_url();?>index.php/auth/rent" style="font-size:150%">Rent</a></li>
 					<?php
 						if($this->session->userdata('logged_in')){
-							echo "<li><a href='".base_url()."index.php/auth/logout' style='font-size:150%'>Logout</a></li>";
+							echo "<li><a href='".base_url()."index.php/auth/logout' style='font-size:150%'>Logout</a></li>";						
 						}
 						else{
 							if($name == "login"){
 								echo "<li class='active'><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
 								echo "<li><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
 							}
-							if($name == "register"){
+							else if($name == "register"){
 								echo "<li><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
 								echo "<li class='active'><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
+							}
+							else{
+								echo "<li><a href='".base_url()."index.php/auth/login' style='font-size:150%'>Login</a></li>";
+								echo "<li><a href='".base_url()."index.php/auth/register' style='font-size:150%'>Sign up</a></li>";
 							}
 						}
 					?>

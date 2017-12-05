@@ -145,10 +145,105 @@
 
 
   <div class="spacer"><h4><span class="glyphicon glyphicon-th-list"></span> Properties Detail</h4>
-  <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-  <p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service</p>
+  <p>Listed at : 5 December 2017</p>
+  <p>Loan is available, negotiable price, comfortable and safe 24-hour environment, close to school, hospital and shopping center, Cibubur alternative main road access. Renovation.</p>
 
   </div>
+  
+	<div class="row">
+		<h4><span class="glyphicon glyphicon-list-alt"></span>Property detail</h4>
+		
+		<div class="row">
+            <div class="col-md-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Property            </font></font></div>
+            <div class="col-md-10 ml-15">
+		<ul class="row" style="list-style-type: none; padding-left: 0px;">
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Property Type </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">House</font></font></span>
+                </li>
+                <li class="col-md-6 ">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ad Type </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For sale</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Price is </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rp1.900.000.000</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Certification </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Certified</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bedroom </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bathroom </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bed Room </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Maid Bathroom </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Land Area </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">220m²</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Building Area </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">150m²</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Number of Floors </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carports </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></span>
+                </li>
+                <li class="col-md-6">
+                    <strong class="col-xs-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Garage </font></font></strong>
+                    <span class="col-xs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></span>
+                </li>
+        </ul>
+	</div>
+	</div>
+	
+	<div class="row">
+        <div class="col-md-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Facility            </font></font>
+		</div>
+            <div class="col-md-10 ml-15">
+                <div class="col-md-10">
+                    <ul class="row reset-list" style="list-style-type: none; padding-left: 0px;">
+                        <li class="col-md-4">Air Conditioner</li>
+                        <li class="col-md-4">Internet</li>
+                        <li class="col-md-4">24 Hour security</li>
+                        <li class="col-md-4">Gymnasium</li>
+                        <li class="col-md-4">Business Center</li>
+                        <li class="col-md-4">TV Cable</li>
+                        <li class="col-md-4">Swiming Pool</li>
+                        <li class="col-md-4">Highway Access</li>
+                        <li class="col-md-4">Car park</li>
+                        <li class="col-md-4">Near main road</li>
+                        <li class="col-md-4">Near Business area</li>
+                        <li class="col-md-4">Near Shopping area</li>
+                        <li class="col-md-4">Near train Station</li>
+                        <li class="col-md-4">Near school</li>
+                        <li class="col-md-4">Near Hospital</li>
+                        <li class="col-md-4">Near Mosque</li>
+                        <li class="col-md-4">Flood free</li>
+                    </ul>
+                </div>
+			</div>
+    </div>
+	</div>
+	
   <div><h4><span class="glyphicon glyphicon-map-marker"></span> Location</h4>
 <div class="well"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Pulchowk,+Patan,+Central+Region,+Nepal&amp;aq=0&amp;oq=pulch&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Pulchowk,+Patan+Dhoka,+Patan,+Bagmati,+Central+Region,+Nepal&amp;ll=27.678236,85.316853&amp;spn=0.001347,0.002642&amp;t=m&amp;z=14&amp;output=embed"></iframe></div>
   </div>
@@ -175,10 +270,12 @@
 <p class="price">$ 200,000,000</p>
   <p class="area"><span class="glyphicon glyphicon-map-marker"></span> 344 Villa, Syndey, Australia</p>
   
+  <!--
   <div class="profile">
   <span class="glyphicon glyphicon-user"></span> Agent Details
   <p>John Parker<br>009 229 2929</p>
   </div>
+  -->
 </div>
 
     <h6><span class="glyphicon glyphicon-home"></span> Availabilty</h6>
@@ -218,7 +315,7 @@
 </div>
 <br>
 <div class="enquiry">
-  <h6><span class="glyphicon glyphicon-envelope"></span>Contact us</h6>
+  <h6><span class="glyphicon glyphicon-user"></span>Contact us</h6>
 		<h3>Tri aldy Kurn</h3>
 		<p>+62856 - xx21 - xx2</p>
 		<a type="submit" class="btn btn-primary" name="Submit" style="width: 40%">Live chat</a>
@@ -241,9 +338,9 @@
 	<div class="row" >
 		<div class="comment-tabs">
             <ul class="nav nav-tabs" role="tablist">
-                <li class="active"><a href="#comments-logout" role="tab" data-toggle="tab"><h4 class="reviews text-capitalize">Comments</h4></a></li>
-                <li><a href="#add-comment" role="tab" data-toggle="tab"><h4 class="reviews text-capitalize">Add comment</h4></a></li>
-                <li><a href="#account-settings" role="tab" data-toggle="tab"><h4 class="reviews text-capitalize">Account settings</h4></a></li>
+                <li class="active"><a href="#comments-logout" role="tab" data-toggle="tab">Comments</a></li>
+                <li><a href="#add-comment" role="tab" data-toggle="tab">Add comment</a></li>
+                <li><a href="#account-settings" role="tab" data-toggle="tab">Account settings</a></li>
             </ul>            
             <div class="tab-content">
                 <div class="tab-pane active" id="comments-logout">                
@@ -263,9 +360,30 @@
                               <p class="media-comment">
                                 Great snippet! Thanks for sharing.
                               </p>
-                              <a class="btn btn-info btn-circle text-uppercase" href="#" id="reply"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
-                              <a class="btn btn-warning btn-circle text-uppercase" data-toggle="collapse" href="#replyOne"><span class="glyphicon glyphicon-comment"></span> 2 comments</a>
+                              <a class="btn btn-info btn-circle text-uppercase" href="#replyOnly" data-toggle="collapse"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
+                              <a class="btn btn-warning btn-circle text-uppercase" style="background-color: #3d78a7; border-color: #3d78a7;" data-toggle="collapse" href="#replyOne"><span class="glyphicon glyphicon-comment"></span> 2 comments</a>
                           </div>              
+                        </div>
+						<div class="collapse" id="replyOnly">
+                            <ul class="media-list">
+                                <li class="media media-replied">
+                                    <a class="pull-left" href="#">
+                                      <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/jackiesaik/128.jpg" alt="profile">
+                                    </a>
+                                    <div class="media-body">
+                                      <div class="well well-lg">
+                                          <h4 class="media-heading text-uppercase reviews"><span class="glyphicon glyphicon-share-alt"></span> Reply Marco</h4>
+                                          <form >
+											<div class="row">
+												<textarea class="form-control" rows="5" placeholder="Enter your reply here . . ."></textarea>
+											</div>
+										  </form>
+                                          <br>
+                                          <a class="btn btn-info btn-circle text-uppercase" href="#" id="reply"><span class="glyphicon glyphicon-share-alt"></span> Send Reply</a>
+                                      </div>              
+                                    </div>
+                                </li>
+                            </ul>  
                         </div>
                         <div class="collapse" id="replyOne">
                             <ul class="media-list">
@@ -347,8 +465,8 @@
                               <p class="media-comment">
                                 Yehhhh... Thanks for sharing.
                               </p>
-                              <a class="btn btn-info btn-circle text-uppercase" href="#" id="reply"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
-                              <a class="btn btn-warning btn-circle text-uppercase" data-toggle="collapse" href="#replyTwo"><span class="glyphicon glyphicon-comment"></span> 1 comment</a>
+                              <a class="btn btn-info btn-circle text-uppercase" href="#reply" data-toggle="collapse"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
+                              <a class="btn btn-warning btn-circle text-uppercase" style="background-color: #3d78a7; border-color: #3d78a7;" data-toggle="collapse" href="#replyTwo"><span class="glyphicon glyphicon-comment"></span> 1 comment</a>
                           </div>              
                         </div>
                         <div class="collapse" id="replyTwo">
@@ -455,12 +573,12 @@
         </div>
 	</div>
 	
-	    <div class="container">
+<!--	    <div class="container">
 	<div class="row" style="margin-top:40px;">
 		<div class="col-md-6">
     	<div class="well well-sm">
             <div class="text-right">
-                <a class="btn btn-success btn-green" href="#reviews-anchor" id="open-review-box">Leave a Review</a>
+                <a class="btn btn-success btn-green" href="#txt1" id="open-review-box">Leave a Review</a>
             </div>
         
             <div class="row" id="post-review-box" style="display:none;">
@@ -483,6 +601,7 @@
 		</div>
 	</div>
 </div>
+-->
 	
 </div>
 
@@ -538,15 +657,15 @@ $(function(){
 			labels: ['January', 'February', 'March', 'April'],
 			datasets: [
 				{
-					label: '2010 customers #',
-					fillColor: '#382765',
+					label: 'Price in usd',
+					//fillColor: '#3d78a7',
 					data: [ 610, 630, 665, 650],
 					backgroundColor: [
-						'rgba(0, 255, 0, 0.2)',
+						'rgba(61, 120, 167, 0.5)',
 						
 					],
 					borderColor: [
-						'rgba(255, 0, 0, 0.2)',
+						'rgba(255, 0, 0, 0.7)',
 					],
 				}
 			]
@@ -590,13 +709,15 @@ $(function(){
 					label: 'Price in usd',
 					fillColor: '#382765',
 					data: [ 635, 630, 665, 650],
-					backgroundColor: [
-					
-						'rgba(255, 0, 0, 0.2)',
-						'rgba(0, 255, 0, 0.2)',
+					backgroundColor: //[
+						'rgba(61, 120, 167, 0.5)'
+						/*'rgba(0, 255, 0, 0.2)',
 						'rgba(0, 0, 255, 0.2)',
 						'rgba(0, 0, 0, 0.2)',
-					],
+						
+					]*/,
+					
+					borderColor: 'rgba(255, 0, 0, 0.7)',
 					
 					borderWidth: 2
 				}
@@ -628,6 +749,20 @@ $(function(){
 			  data: data,
 			  options: options
 		  });
+	</script>
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+	 $('[id^="txt"]').focus(function() {
+	  $(this).css("box-shadow", "3px 3px 5px 2px gray")
+		.animate({height:"150px"});
+	  });
+	 $('[id^="txt"]').blur(function() {
+	  $(this).stop()
+	   .css("height", "20")
+	   .css("box-shadow", "none");
+	 });
+	});
 	</script>
 
 <?php include'footer.php';?>

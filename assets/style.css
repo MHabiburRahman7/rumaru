@@ -51,8 +51,8 @@ table{background-color: #fff;}
 .navbar-inverse .navbar-nav > li > a:hover{background-color: #264b68;font-size: 11px;padding-top: 10px;padding-bottom: 10px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;text-transform: uppercase;}
 .navbar-inverse .navbar-nav > .active > a {background-color: #3d78a7;}
 .navbar-inverse .navbar-nav > .active > a:hover{background-color: #264b68;}
-.navbar-inverse .navbar-nav > .active > a:focus{background-color: #3d78a7;}
-
+/*.navbar-inverse .navbar-nav > .active > a:focus{background-color: #3d78a7;}
+*/
 .banner-search{background:url(../images/bginside.jpg) #111;color: #fff;padding: 2em; font-size: 16px;}
 .banner-search h3{color: #fff;}
 

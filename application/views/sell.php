@@ -14,9 +14,9 @@
           <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
             <div class="sl-slide-inner">
               <div class="bg-img bg-img-1"></div>
-              <h2><a href="#">Sell Your Home with a Redfin Partner Agent</a></h2>
+              <h2><a href="#">Sell Your Home with a Rumaru Partner Agent</a></h2>
               <blockquote>              
-              <p>Redfin Agents provide full service at every step, and get better results for lower fees.</p>
+              <p>Rumaru Agents provide full service at every step, and get better results for lower fees.</p>
               </blockquote>
             </div>
           </div>
@@ -33,7 +33,7 @@
   <div class="container"> 
     <!-- banner -->
     <h3 style="text-align:center">Talk with our agent</h3>
-	<h4 style="text-align:center; color:white">Request a free, no-obligation listing consultation with a Redfin Agent.</h4>
+	<h4 style="text-align:center; color:white">Request a free, no-obligation listing consultation with a Rumaru Agent.</h4>
     <div class="searchbar" style="width:70%; text-align:center; margin:0 auto">
       <div class="row">
         <div class="d-inline-form" style="margin:0 auto">
@@ -53,10 +53,10 @@
 	<div class="row">
 		<div class="container col-lg-6">
 			<h2 style="text-align:center">Strategic Pricing</h2>
-			<h4 >Based on your needs and the local real estate data, your Redfin Agent will come up with a pricing strategy to sell your home for the highest possible price.
+			<h4 >Based on your needs and the local real estate data, your Rumaru Agent will come up with a pricing strategy to sell your home for the highest possible price.
 			</h4>
 			<br>
-			<p >A Redfin Agent will:
+			<p >A Rumaru Agent will:
 			</p>
 			<ul>
 				<li>
@@ -84,9 +84,9 @@
 		<div class="container col-lg-6" style="text-align:center">
 			<h2>The offer and close</h2>
 			<h4>
-			Once you get an offer, we can send Redfin.com buyers and local agents a “Last Call” email to generate more demand
+			Once you get an offer, we can send Rumaru.com buyers and local agents a “Last Call” email to generate more demand
 			<br>often resulting in multiple offers and a higher price. We’re always there when you need us. 
-			<br>Your Redfin Agent stays on the case through your offer, inspection, and appraisal
+			<br>Your Rumaru Agent stays on the case through your offer, inspection, and appraisal
 			<br>all the way to closing.
 			</h4>
 		</div>
